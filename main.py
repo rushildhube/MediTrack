@@ -26,7 +26,7 @@ from kivy.core.window import Window
 Window.size = (420, 640)
 
 cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred, {'storageBucket': "healthcaresystemforpatient.appspot.com"})
+firebase_admin.initialize_app(cred, {'storageBucket': "healthcaresoftwareforpatient.appspot.com"})
 db = firestore.client()
 # Builder.load_file('main.kv')
 currentuser = ''
