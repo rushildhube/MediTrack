@@ -48,7 +48,7 @@ MediTrack is a patient medical record management system designed to efficiently 
    
 3. **Create a Firebase Storage Bucket**:
    - Set up a Firebase Storage bucket in the Firebase console to store patient documents securely.
-
+   - Replace the serviceAccountKey from your firestore settings go to project setting then service accounts then generate new private key and replace the serviceAccountKey with your file with exact same name.
 
 4. **Clone the Repository**:
    ```bash
