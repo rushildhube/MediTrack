@@ -1,4 +1,5 @@
 # MediTrack
+
 MediTrack is a patient medical record management system designed to efficiently record, store, and share patient data, including medical reports, X-rays, diagnoses, treatments, medications, blood test results, and more. This application provides a comprehensive solution for tracking and managing patient information securely.
 
 ## Features
@@ -35,37 +36,15 @@ MediTrack is a patient medical record management system designed to efficiently 
 
 ## Installation and Setup
 
-1. **Clone the Repository**:
+1. **Create a Firebase Account**:
+   - Sign up for a Firebase account at [Firebase Console](https://console.firebase.google.com/).
+   
+2. **Set up Firebase Firestore**:
+   - Create a Firestore database in the Firebase console to store patient records.
+
+3. **Create a Firebase Storage Bucket**:
+   - Set up a Firebase Storage bucket in the Firebase console to store patient documents securely.
+
+4. **Clone the Repository**:
    ```bash
    git clone https://github.com/rushildhube/MediTrack.git
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   cd MediTrack
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Application**:
-   ```bash
-   python main.py
-   ```
-
-## Contributing
-
-We welcome contributions to enhance the functionality and features of the MediTrack project. If you wish to contribute, please follow these guidelines:
-
-- Fork the repository to your GitHub account.
-- Create a new branch for your feature or bug fix.
-- Make your changes and ensure all tests pass.
-- Commit your changes with descriptive messages.
-- Push your changes to your branch.
-- Open a pull request to merge your changes into the main repository.
-
-## License
-
-This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE.txt) file.
-
----
-
-Feel free to further customize the README file to include specific details, guidelines, or additional sections based on the requirements and scope of the "MediTrack" project.
