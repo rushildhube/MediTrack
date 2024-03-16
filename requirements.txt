@@ -1,0 +1,6 @@
+Kivy4==5.3.1
+firebase-admin==6.5.0
+firebase==4.0.1
+openpyxl==3.1.2
+pandas==2.2.1
+tk==0.1.0
