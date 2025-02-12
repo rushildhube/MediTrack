@@ -69,5 +69,3 @@ We welcome contributions to enhance the functionality and features of the MediTr
 This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE.txt) file.
 
 ---
-
-Feel free to further customize the README file to include specific details, guidelines, or additional sections based on the requirements and scope of the "MediTrack" project.
